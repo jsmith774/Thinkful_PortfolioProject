@@ -1,0 +1,132 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+}
+header, footer, main {
+    margin: 0;
+    /*text-align: center;*/
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+section {
+    padding: 5px 32px;
+}
+
+main {
+    /*padding: 5px 20px;*/
+    background-color: oldlace;
+    color: darkslategray
+}
+
+.alt-bg {
+    background-color: darkslategray;
+    color: oldlace;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.3em;
+}
+.group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+    /*background-color: black;
+    color: #00ff00;
+    text-shadow: 2px 2px 3px #9acd9a;*/
+}
+
+.group h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.group h4 {
+    padding: 0;
+    margin: 0;
+    font-size: 1.4em;
+}
+
+img {
+    width: 80%;
+    margin: 0;
+    padding: 0 10%;
+    background-color: darkslategray;
+}
+
+.group .item a img {
+    background-color: oldlace;
+    width: auto;
+    height: 30px;
+}
+
+.item {
+    flex: 1;
+    margin: 10px 10px;
+}
+.item-double {
+    flex: 2;
+}
+
+.item-triple {
+    flex: 3;
+}
+
+.img-item {
+    width: 100%;
+    margin: 5px;
+    padding: 10px 4px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border: solid medium darkslategray;
+    font-size: 1.8em;
+}
+
+.project {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    border-bottom: solid 2px darkslategray;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.project-img {
+    width: 100%;
+    padding: 0;
+}
+
+.project-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+@media all and (min-width: 800px) {
+    .group {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .item {
+        flex-wrap: wrap;
+        margin: 10px 50px;
+    }
+  }
