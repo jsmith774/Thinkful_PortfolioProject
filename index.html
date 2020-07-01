@@ -9,9 +9,17 @@
 <body>
     <header>
         <h1>Jim Smith</h1>
+        <nav>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#projects">Portfolio</a></li>
+              </ul>
+        </nav>
     </header>
     <main>
-        <section>
+        <section id="home">
             <h2>Intro:</h2>
             <div class="group">
                 <div class="item"><img src="images/headshot.jpg" alt="Photo headshot"/></div>
@@ -22,12 +30,12 @@
                 </div> 
             </div>
         </section>
-        <section class="alt-bg">
+        <section id="about" class="alt-bg">
             <h2>About Me:</h2>
             <div class="group">
                 <div class="item">
                     <!-- demonstrate your passion for the web -->
-                    <p>I'm definitely more of a back-end/middle-tier coder than a designer/front-end developer, but I'm currently a student in Thinkful's full-stack engineering immersive to become more well rounded on the front-end.</p>
+                    <p>I'm more of a back-end/middle-tier coder than a designer/front-end developer, but I'm currently a student in Thinkful's full-stack engineering immersive to become more well rounded on the front-end.</p>
                             
                     <p>Outside of coding, I enjoy medieval fantasy novels/movies, playing video games, cooking, and taste-testing high-end spirits.  I find that combining these hobbies often makes each more enjoyable than they are individually.</p>
           
@@ -38,17 +46,29 @@
                       <li>Custom application development (desktop applications, mobile/web apps, services/APIs)</li>
                       <li>Technical Training (G-Suite, MS-Office applications, OOD/OOP, Agile methodologies, ATDD)</li>
                     </ul>
+                </div>
             </div>
         </section>
-        <section>
+        <section id="contact">
             <h2>Contact:</h2>
             <div class="group">
-                <div class="item img-item"><a href="mailto:jsmith774@gmail.com"><div><img src="images/email-icon.png"></div>Email</a></div>
-                <div class="item img-item"><a href="https://github.com/jsmith774"><div><img src="images/GitHub_Logo.png"></div>GitHub</a></div>
-                <div class="item img-item"><a href="https://www.linkedin.com/in/jim-smith-0197b91/"><div><img src="images/LI-Logo.png"></div>LinkedIn</a></div>
+                <div class="item img-item"><a href="mailto:jsmith774@gmail.com"><div><img src="images/email-icon.png" alt="email icon"></div>Email</a></div>
+                <div class="item img-item"><a href="https://github.com/jsmith774"><div><img src="images/GitHub_Logo.png" alt="github logo"></div>GitHub</a></div>
+                <div class="item img-item"><a href="https://www.linkedin.com/in/jim-smith-0197b91/"><div><img src="images/LI-Logo.png" alt="linkedin logo"></div>LinkedIn</a></div>
+                <div class="item">
+                    <form action="https://formspree.io/xoqknzav" method="post">
+                        <label for="name">Name:</label>
+                        <input id="name" type="text" name="name" placeholder="Your Name">
+                        <label for="email">Email:</label>
+                        <input id="email" type="email" name="email" placeholder="Your Email Address">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Enter your message here"></textarea>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
             </div>
         </section>
-        <section>
+        <section id="projects">
             <h2>Projects:</h2>
             <div class="group">
                 <div class="item">
