@@ -5,7 +5,6 @@ html, body {
 }
 header, footer, main {
     margin: 0;
-    /*text-align: center;*/
 }
 
 header, footer {
@@ -41,7 +40,6 @@ section {
 }
 
 main {
-    /*padding: 5px 20px;*/
     background-color: oldlace;
     color: darkslategray
 }
@@ -54,14 +52,15 @@ form {
     padding: 15px 25px 50px 15px;
     border-radius: 10px;
     border: solid medium darkslategray;
+    background-color: darkslategray;
     min-width: 200px;
 }
 
 form label {
     display: block;
     font-size: 18px;
-    margin-bottom: 5px;
-    color: gray;
+    margin-top: 16px;
+    color: oldlace;
     font-family: arial;
 }
 
@@ -98,9 +97,6 @@ p {
     flex-direction: column;
     margin-bottom: 32px;
     flex-wrap: wrap;
-    /*background-color: black;
-    color: #00ff00;
-    text-shadow: 2px 2px 3px #9acd9a;*/
 }
 
 .group h3 {
@@ -148,13 +144,12 @@ img {
     justify-content: center;
     text-align: center;
     border-radius: 10px;
-    border: solid medium darkslategray;
+    /*border: solid medium darkslategray;*/
     font-size: 1.8em;
 }
 
 .project {
     display: flex;
-    /*width: 400px;*/
     flex-direction: column;
     border-bottom: solid 2px darkslategray;
     padding-bottom: 10px;
