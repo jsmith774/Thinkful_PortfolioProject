@@ -154,7 +154,7 @@ img {
 
 .project {
     display: flex;
-    width: 400px;
+    /*width: 400px;*/
     flex-direction: column;
     border-bottom: solid 2px darkslategray;
     padding-bottom: 10px;
