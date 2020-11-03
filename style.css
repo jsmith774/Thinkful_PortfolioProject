@@ -176,18 +176,21 @@ img {
   flex-direction: row;
   justify-content: space-around;
   margin: 20px 0px 12px 0px;
+  text-align: center;
 }
 
-.project-button-group button {
+.project-button-group a {
   background-color: darkslategray;
+  border-radius: 2px;
+  padding: 4px 16px;
+  border: solid thin black;
+  cursor: pointer;
   box-shadow: 3px 3px 5px darkslategray;
-}
-
-.project-button-group button a {
   color: oldlace;
   text-decoration: none;
+  text-align: center;
+  margin: 4px 8px;
 }
-
 @media all and (min-width: 800px) {
   .group {
     flex-direction: row;
