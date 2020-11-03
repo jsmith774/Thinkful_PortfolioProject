@@ -171,6 +171,23 @@ img {
   font-weight: bold;
 }
 
+.project-button-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 0px 12px 0px;
+}
+
+.project-button-group button {
+  background-color: darkslategray;
+  box-shadow: 3px 3px 5px darkslategray;
+}
+
+.project-button-group button a {
+  color: oldlace;
+  text-decoration: none;
+}
+
 @media all and (min-width: 800px) {
   .group {
     flex-direction: row;
